@@ -1,5 +1,3 @@
-# Cyberduck Profiles repository
+# Cyberduck Connection Profiles
 
-Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) containing third-party supported profiles.
-
-Please see [docs.cyberduck.io/Protocols](https://docs.cyberduck.io/protocols/#connection-profiles) for detailed information.
+Companion repository for [Cyberduck](https://github.com/iterate-ch/cyberduck) and [Mountain Duck](https://mountainduck.io/) containing third-party connection profiles. Please refer to the [documentation](https://docs.cyberduck.io/protocols/#connection-profiles) for more information and how to install.
