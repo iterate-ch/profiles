@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>gs</string>
+        <key>Vendor</key>
+        <string>googlestorage-privateserviceconnect</string>
+        <key>Description</key>
+        <string>Google Cloud Storage (Private Service Connect)</string>
+        <key>Hostname Configurable</key>
+        <true/>
+    </dict>
+</plist>
