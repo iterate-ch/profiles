@@ -23,6 +23,8 @@
         <string>ovh</string>
         <key>Description</key>
         <string>hubiC (OVH)</string>
+        <key>Username Configurable</key>
+        <true/>
         <key>OAuth Authorization Url</key>
         <string>https://api.hubic.com/oauth/auth</string>
         <key>OAuth Token Url</key>
