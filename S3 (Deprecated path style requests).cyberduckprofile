@@ -18,7 +18,7 @@
         <true/>
         <key>Properties</key>
         <array>
-            <string>s3service.disable-dns-buckets=true</string>
+            <string>s3.bucket.virtualhost.disable=true</string>
         </array>
     </dict>
 </plist>
