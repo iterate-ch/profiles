@@ -1,0 +1,13 @@
+name: Sanity check profiles
+
+on:
+    pull_request:
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            -   uses: actions/checkout@v2
+            -   run: |
+                    sudo apt-get update
+                    sudo apt-get install -y libplist-utils
+            -   run: scripts/plist-test.sh .
