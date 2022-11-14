@@ -36,7 +36,6 @@
       <string>s3.versioning.enable=false</string>
       <string>s3.accelerate.enable=false</string>
       <string>s3.bucket.requesterpays=false</string>
-      <string>s3.storage.class.options=STANDARD</string>
     </array>
     <key>Help</key>
     <string>https://docs.storj.io/dcs/how-tos/how-to-use-cyberduck-and-storj-dcs/</string>
