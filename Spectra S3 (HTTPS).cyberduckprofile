@@ -27,6 +27,10 @@
             <string>spectra</string>
             <string>https</string>
         </array>
+        <key>Properties</key>
+        <array>
+            <string>s3.bucket.virtualhost.disable=true</string>
+        </array>
         <key>Disk</key>
         <string>
             AAABAAYAAAAAAAEAIAAoIAQAZgAAAICAAAABACAAKAgBAI4gBABAQAAAAQAgAChCAAC2KAUAM
