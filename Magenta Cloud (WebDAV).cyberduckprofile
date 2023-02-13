@@ -10,9 +10,9 @@
         <key>Default Nickname</key>
         <string>Magenta Cloud</string>
         <key>Default Hostname</key>
-        <string>magentacloud.de/</string>
+        <string>magentacloud.de</string>
         <key>Default Path</key>
-        <string>remote.php/webdav</string>
+        <string>/remote.php/webdav</string>
         <key>Path Configurable</key>
         <true/>
         <key>Username Placeholder</key>
