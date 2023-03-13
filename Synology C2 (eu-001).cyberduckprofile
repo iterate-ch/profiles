@@ -23,7 +23,7 @@
         <key>Description</key>
         <string>Synology C2 Object (eu-001)</string>
         <key>Default Hostname</key>
-        <string>us-001.s3.synologyc2.net</string>
+        <string>eu-001.s3.synologyc2.net</string>
         <key>Region</key>
         <string>eu-001</string>
         <key>Regions</key>
