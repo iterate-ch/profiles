@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>ovh-bhs</string>
+        <key>Scheme</key>
+        <string>https</string>
+        <key>Description</key>
+        <string>OVH Public Cloud Storage (Beauharnois)</string>
+        <key>Default Hostname</key>
+        <string>s3.bhs.io.cloud.ovh.net</string>
+        <key>Hostname Configurable</key>
+        <false/>
+        <key>Port Configurable</key>
+        <false/>
+        <key>Username Placeholder</key>
+        <string>Access Key</string>
+        <key>Password Placeholder</key>
+        <string>Secret Key</string>
+        <key>Authorization</key>
+        <string>AWS4HMACSHA256</string>
+        <key>Region</key>
+        <string>bhs</string>
+        <key>Regions</key>
+        <array>
+            <string>bhs</string>
+        </array>
+        <key>Properties</key>
+        <array>
+            <string>s3.storage.class.options=STANDARD</string>
+        </array>
+        <key>Help</key>
+        <string>https://docs.cyberduck.io/protocols/openstack/ovh/</string>
+    </dict>
+</plist>
