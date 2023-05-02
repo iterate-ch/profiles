@@ -21,7 +21,7 @@
         <key>Vendor</key>
         <string>synology</string>
         <key>Description</key>
-        <string>Synology C2 Object (eu-001)</string>
+        <string>Synology C2 Object Storage (eu-001)</string>
         <key>Default Hostname</key>
         <string>eu-001.s3.synologyc2.net</string>
         <key>Region</key>
