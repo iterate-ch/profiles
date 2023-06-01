@@ -18,32 +18,36 @@
 <plist version="1.0">
     <dict>
         <key>Protocol</key>
-        <string>swift</string>
+        <string>s3</string>
         <key>Vendor</key>
         <string>Infomaniak Network</string>
+        <key>Scheme</key>
+        <string>https</string>
         <key>Name</key>
-        <string>Swiss Backup</string>
-        <key>Default Nickname</key>
-        <string>Swiss Backup</string>
+        <string>Swiss Backup (S3)</string>
         <key>Description</key>
-        <string>Infomaniak Swiss Backup (03)</string>
-        <key>Context</key>
-        <string>/identity/v3/auth/tokens</string>
+        <string>Infomaniak Swiss Backup 01 (S3)</string>
+        <key>Default Nickname</key>
+        <string>Swiss Backup (S3)</string>
         <key>Default Hostname</key>
-        <string>swift03-api.cloud.infomaniak.ch</string>
+        <string>s3.swiss-backup01.infomaniak.com</string>
         <key>Hostname Configurable</key>
         <false/>
-        <key>Default Port</key>
-        <string>443</string>
         <key>Port Configurable</key>
         <false/>
-        <key>Username Placeholder</key>
-        <string>Project:Domain:Username</string>
-        <key>Password Placeholder</key>
-        <string>Password</string>
-        <key>Schemes</key>
+        <key>Anonymous Configurable</key>
+        <false/>
+        <key>Region</key>
+        <string>auto</string>
+        <key>Regions</key>
         <array>
-            <string>infomaniak</string>
+            <string>auto</string>
+        </array>
+        <key>Properties</key>
+        <array>
+            <string>s3.storage.class.options=STANDARD</string>
+            <string>s3.upload.multipart=false</string>
+            <string>s3.bucket.virtualhost.disable=true</string>
         </array>
         <key>Help</key>
         <string>https://trac.cyberduck.io/wiki/help/en/howto/infomaniak</string>

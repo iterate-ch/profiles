@@ -22,11 +22,11 @@
         <key>Vendor</key>
         <string>Infomaniak Network</string>
         <key>Name</key>
-        <string>Infomaniak Public Cloud</string>
+        <string>Infomaniak Public Cloud (Swift)</string>
         <key>Default Nickname</key>
-        <string>Infomaniak Public Cloud</string>
+        <string>Infomaniak Public Cloud (Swift)</string>
         <key>Description</key>
-        <string>Infomaniak Public Cloud (01)</string>
+        <string>Infomaniak Public Cloud Region 1 (Swift)</string>
         <key>Context</key>
         <string>/identity/v3/auth/tokens</string>
         <key>Default Hostname</key>
