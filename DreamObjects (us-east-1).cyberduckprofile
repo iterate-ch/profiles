@@ -17,7 +17,7 @@
         <key>Password Placeholder</key>
         <string>Secret Key</string>
         <key>Authorization</key>
-        <string>AWS2</string>
+        <string>AWS4</string>
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>
