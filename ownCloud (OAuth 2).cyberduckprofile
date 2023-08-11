@@ -33,9 +33,5 @@
         <string>/index.php/apps/oauth2/authorize</string>
         <key>OAuth Token Url</key>
         <string>/index.php/apps/oauth2/api/v1/token</string>
-        <key>OAuth Client ID</key>
-        <string>cyberduck</string>
-        <key>OAuth Client Secret</key>
-        <string></string>
     </dict>
 </plist>
