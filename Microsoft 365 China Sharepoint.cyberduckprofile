@@ -45,10 +45,6 @@
             <string>groupmember.read.all</string>
             <string>offline_access</string>
         </array>
-        <key>OAuth Client ID</key>
-        <string>Enter your Client ID</string>
-        <key>OAuth Client Secret</key>
-        <string>Enter your Client Secret, or omit.</string>
         <key>OAuth Redirect Url</key>
         <string>https://cyberduck.io/oauth/</string>
         <key>Password Configurable</key>
