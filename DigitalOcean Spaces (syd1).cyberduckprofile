@@ -48,7 +48,7 @@
             <string>s3.storage.class.options=STANDARD</string>
         </array>
         <key>Help</key>
-        <string>https://trac.cyberduck.io/wiki/help/en/howto/digitalocean</string>
+        <string>https://docs.cyberduck.io/protocols/s3/digitalocean/</string>
         <key>Disk</key>
         <string>
             TU0AKgAANtCAACBQOCQWDQeEQmFQuGQ2HQ+IRGJROKRWLReMRmNRuOR2PR+QSGRSOSSWTS
