@@ -37,16 +37,8 @@
         <false/>
         <key>Anonymous Configurable</key>
         <false/>
-        <key>Region</key>
-        <string>auto</string>
-        <key>Regions</key>
-        <array>
-            <string>auto</string>
-        </array>
         <key>Properties</key>
         <array>
-            <string>s3.storage.class.options=STANDARD</string>
-            <string>s3.upload.multipart=false</string>
             <string>s3.bucket.virtualhost.disable=true</string>
         </array>
         <key>Help</key>
