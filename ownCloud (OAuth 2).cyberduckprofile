@@ -27,6 +27,8 @@
         <false/>
         <key>Password Configurable</key>
         <false/>
+        <key>OAuth Configurable</key>
+        <true/>
         <key>Authorization</key>
         <string>AuthorizationCode</string>
         <key>OAuth Authorization Url</key>
