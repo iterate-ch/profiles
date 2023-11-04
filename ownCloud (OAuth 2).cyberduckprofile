@@ -31,6 +31,8 @@
         <true/>
         <key>Authorization</key>
         <string>AuthorizationCode</string>
+        <key>OAuth Redirect Url</key>
+        <string>${oauth.handler.scheme}://oauth</string>
         <key>OAuth Authorization Url</key>
         <string>/index.php/apps/oauth2/authorize</string>
         <key>OAuth Token Url</key>
