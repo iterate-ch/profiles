@@ -37,5 +37,11 @@
         <string>/index.php/apps/oauth2/authorize</string>
         <key>OAuth Token Url</key>
         <string>/index.php/apps/oauth2/api/v1/token</string>
+        <key>Scopes</key>
+        <array>
+            <string>openid</string>
+            <string>email</string>
+            <string>offline_access</string>
+        </array>
     </dict>
 </plist>
