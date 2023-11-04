@@ -45,6 +45,8 @@
             <string>groupmember.read.all</string>
             <string>offline_access</string>
         </array>
+        <key>OAuth Client Secret</key>
+        <string />
         <key>OAuth Redirect Url</key>
         <string>${oauth.handler.scheme}://oauth</string>
         <key>Password Configurable</key>
