@@ -25,6 +25,8 @@
         <string>Microsoft SharePoint Site</string>
         <key>Scheme</key>
         <string>https</string>
+        <key>Default Hostname</key>
+        <string>graph.microsoft.com</string>
         <key>Hostname Placeholder</key>
         <string>&lt;tenant&gt;.sharepoint.com</string>
         <key>Hostname Configurable</key>
