@@ -13,7 +13,7 @@
         <key>Default Nickname</key>
         <string>Nipa Cloud Space Object Storage</string>
         <key>Hostname Placeholder</key>
-        <string>&lt;bucketid&gt;.s3-bkk.nipa.cloud</string>
+        <string>s3-bkk.nipa.cloud</string>
         <key>Default Hostname</key>
         <string>s3-bkk.nipa.cloud</string>        
         <key>Username Placeholder</key>
