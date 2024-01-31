@@ -18,5 +18,7 @@
         <true/>
         <key>Username Configurable</key>
         <true/>
+        <key>Anonymous Configurable</key>
+        <true/>
     </dict>
 </plist>
