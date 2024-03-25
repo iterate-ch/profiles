@@ -29,8 +29,6 @@
         <string>https</string>
         <key>Default Hostname</key>
         <string>magentacloud.de</string>
-        <key>Default Path</key>
-        <string>/remote.php/webdav</string>
         <key>Path Configurable</key>
         <true/>
         <key>Default Port</key>
