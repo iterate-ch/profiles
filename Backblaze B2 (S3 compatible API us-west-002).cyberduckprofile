@@ -22,11 +22,11 @@
         <key>Vendor</key>
         <string>backblaze-s3</string>
         <key>Description</key>
-        <string>Backblaze B2 Cloud Storage (S3 API)</string>
+        <string>Backblaze B2 Cloud Storage (S3 compatible API us-west-002)</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Default Hostname</key>
-        <string>s3.us-west-001.backblazeb2.com</string>
+        <string>s3.us-west-002.backblazeb2.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Default Port</key>
