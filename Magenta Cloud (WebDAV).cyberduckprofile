@@ -1,26 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2002-2019 iterate GmbH. All rights reserved.
+  ~ https://cyberduck.io/
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  -->
+
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
         <key>Protocol</key>
-        <string>dav</string>
+        <string>nextcloud</string>
         <key>Vendor</key>
-        <string>magenta</string>
+        <string>iterate GmbH</string>
         <key>Description</key>
-        <string>Magenta Cloud (WebDAV)</string>
+        <string>MagentaCloud</string>
         <key>Default Nickname</key>
-        <string>Magenta Cloud</string>
+        <string>MagentaCloud</string>
+        <key>Scheme</key>
+        <string>https</string>
         <key>Default Hostname</key>
         <string>magentacloud.de</string>
         <key>Default Path</key>
         <string>/remote.php/webdav</string>
         <key>Path Configurable</key>
         <true/>
+        <key>Default Port</key>
+        <string>443</string>
         <key>Username Placeholder</key>
         <string>Benutzername</string>
         <key>Username Configurable</key>
         <true/>
         <key>Password Placeholder</key>
-        <string>Protokoll-Password</string>
+        <string>WebDAV-Passwort</string>
         <key>Password Configurable</key>
         <true/>
         <key>Token Configurable</key>
@@ -28,6 +48,8 @@
         <key>Anonymous Configurable</key>
         <false/>
         <key>Certificate Configurable</key>
-        <false/>
+        <true/>
+        <key>Help</key>
+        <string>https://cloud.telekom-dienste.de/hilfe/einrichten/zugriff-magentacloud</string>
     </dict>
 </plist>
