@@ -39,6 +39,10 @@
         <string>Application Key</string>
         <key>Help</key>
         <string>https://help.cyberduck.io/b2</string>
+        <key>Properties</key>
+        <array>
+            <string>s3.upload.checksum.header=false</string>
+        </array>
         <key>Disk</key>
         <string>
             TU0AKgAANxSAACBQOCQWDQeEQmFQuGQ2HQ+IRGJROKRWLReMRmNRuOR2PR+QSGRSOSSWTS
