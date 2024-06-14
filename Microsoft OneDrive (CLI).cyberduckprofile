@@ -22,7 +22,7 @@
         <key>Vendor</key>
         <string>onedrive-cli</string>
         <key>Description</key>
-        <string>Microsoft SharePoint (CLI)</string>
+        <string>Microsoft OneDrive (CLI)</string>
         <key>Default Hostname</key>
         <string>graph.microsoft.com</string>
         <key>Default Nickname</key>
