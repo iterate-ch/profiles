@@ -16,11 +16,13 @@
         <true/>
         <key>Port Configurable</key>
         <false/>
-        <key>Region</key>
-        <string>auto</string>
         <key>Regions</key>
         <array>
-            <string>auto</string>
+            <string>wnam</string>
+            <string>enam</string>
+            <string>weur</string>
+            <string>eeur</string>
+            <string>apac</string>
         </array>
         <key>Properties</key>
         <array>
