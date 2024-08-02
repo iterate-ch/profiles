@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+    <connection>
+        <id>selectel-s3-connection-01</id>
+        <name>Selectel S3</name>
+        <host>s3.ru-1.storage.selcloud.ru</host>
+        <port>443</port>
+        <protocol>s3</protocol>
+        <accesskey>YourAccessKey</accesskey>
+        <secretkey>YourSecretKey</secretkey>
+        <pathstyleaccess>false</pathstyleaccess>
+        <region>ru-1</region>
+    </connection>
+</connections>
