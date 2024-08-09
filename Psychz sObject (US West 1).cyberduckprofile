@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>Psychz sObject (US West 1)</string>
+        <key>Description</key>
+        <string>Psychz sObject (US West 1)</string>
+        <key>Default Hostname</key>
+        <string>sobject.uswest1.psychz.net</string>
+        <key>Hostname Configurable</key>
+        <false/>
+        <key>Default Port</key>
+        <integer>443</integer>
+        <key>Port Configurable</key>
+        <false/>
+        <key>Username Configurable</key>
+        <true/>
+        <key>Username Placeholder</key>
+        <string>Access Key ID</string>
+        <key>Password Configurable</key>
+        <true/>
+        <key>Password Placeholder</key>
+        <string>Secret Access Key</string>
+        <key>Path Placeholder</key>
+        <string>Enter Bucket Name</string>
+        <key>Path Configurable</key>
+        <true/>
+    </dict>
+</plist>
