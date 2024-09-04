@@ -33,6 +33,6 @@
             <string>s3.storage.class.options=STANDARD NEARLINE</string>
         </array>
         <key>Help</key>
-        <string>https://docs.byteark.com/en/storage/cyberduck</string>
+        <string>https://docs.byteark.com/en/storage/tools/cyberduck/</string>
     </dict>
 </plist>
