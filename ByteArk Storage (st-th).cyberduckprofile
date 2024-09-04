@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>byteark-st-th</string>
+        <key>Scheme</key>
+        <string>https</string>
+        <key>Description</key>
+        <string>ByteArk Storage (st-th multiregion)</string>
+        <key>Default Hostname</key>
+        <string>st-th.byteark.com</string>
+        <key>Hostname Configurable</key>
+        <false/>
+        <key>Port Configurable</key>
+        <false/>
+        <key>Username Placeholder</key>
+        <string>Access Key</string>
+        <key>Password Placeholder</key>
+        <string>Secret Key</string>
+        <key>Authorization</key>
+        <string>AWS4HMACSHA256</string>
+        <key>Region</key>
+        <string>st-th</string>
+        <key>Regions</key>
+        <array>
+            <string>st-th</string>
+        </array>
+        <key>Properties</key>
+        <array>
+            <string>s3.storage.class.options=STANDARD</string>
+        </array>
+        <key>Help</key>
+        <string>https://trac.cyberduck.io/wiki/help/en/howto/digitalocean</string>
+    </dict>
+</plist>
