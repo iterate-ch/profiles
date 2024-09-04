@@ -30,7 +30,7 @@
         </array>
         <key>Properties</key>
         <array>
-            <string>s3.storage.class.options=NEARLINE</string>
+            <string>s3.storage.class.options=STANDARD</string>
         </array>
         <key>Help</key>
         <string>https://trac.cyberduck.io/wiki/help/en/howto/digitalocean</string>
