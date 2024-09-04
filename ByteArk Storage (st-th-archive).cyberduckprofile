@@ -33,6 +33,6 @@
             <string>s3.storage.class.options=STANDARD</string>
         </array>
         <key>Help</key>
-        <string>https://trac.cyberduck.io/wiki/help/en/howto/digitalocean</string>
+        <string>https://docs.byteark.com/en/storage/cyberduck</string>
     </dict>
 </plist>
