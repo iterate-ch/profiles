@@ -24,9 +24,9 @@
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Seattle, WA, USA)</string>
+        <string>Linode Object Storage (Melbourne, AUS) (Type=E1)</string>
         <key>Default Hostname</key>
-        <string>us-sea-1.linodeobjects.com</string>
+        <string>au-mel-3.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
