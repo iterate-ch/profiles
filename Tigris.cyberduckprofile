@@ -1,0 +1,35 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>Tigris</string>
+        <key>Default Nickname</key>
+        <string>Tigris - Globally Distributed S3 Compatible Object Store</string>
+        <key>Description</key>
+        <string>Tigris global object storage</string>
+        <key>Default Hostname</key>
+        <string>fly.storage.tigris.dev</string>
+        <key>Hostname Configurable</key>
+        <false/>
+        <key>Default Port</key>
+        <string>443</string>
+        <key>Port Configurable</key>
+        <false/>
+        <key>Username Configurable</key>
+        <true/>
+        <key>Username Placeholder</key>
+        <string>Access Key ID (tid_xxx)</string>
+        <key>Password Placeholder</key>
+        <string>Secret Key (tsec_xxx)</string>
+        <key>Anonymous Configurable</key>
+        <false/>
+        <key>Authorization</key>
+        <string>AWS4HMACSHA256</string>
+        <key>Region</key>
+        <string>auto</string>
+        <key>Help</key>
+        <string>https://www.tigrisdata.com/docs</string>
+    </dict>
+</plist>
