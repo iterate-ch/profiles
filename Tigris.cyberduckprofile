@@ -6,9 +6,9 @@
         <key>Vendor</key>
         <string>Tigris</string>
         <key>Default Nickname</key>
-        <string>Tigris - Globally Distributed S3 Compatible Object Store</string>
+        <string>Tigris</string>
         <key>Description</key>
-        <string>Tigris global object storage</string>
+        <string>Globally Distributed S3 Compatible Object Store</string>
         <key>Default Hostname</key>
         <string>fly.storage.tigris.dev</string>
         <key>Hostname Configurable</key>
