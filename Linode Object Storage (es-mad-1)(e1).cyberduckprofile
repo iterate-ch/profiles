@@ -38,7 +38,7 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>fr-par-1</string>
+        <string>es-mad-1</string>
         <key>Regions</key>
         <array>
             <string>es-mad-1</string>

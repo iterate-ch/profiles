@@ -20,7 +20,7 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>linode-us-sea-1</string>
+        <string>linode-us-sea-9</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
@@ -38,10 +38,10 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>us-sea-1</string>
+        <string>us-sea-9</string>
         <key>Regions</key>
         <array>
-            <string>us-sea-1</string>
+            <string>us-sea-9</string>
         </array>
         <key>Properties</key>
         <array>
