@@ -31,6 +31,10 @@
         <string>auto</string>
         <key>Help</key>
         <string>https://www.tigrisdata.com/docs</string>
+        <key>Properties</key>
+        <array>
+            <string>s3.bucket.virtualhost.disable=true</string>
+        </array>
         <key>Disk</key>
         <string>
             TU0AKgAAPUQAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAgKADAAQAAAABAAAAgAAAAACAAC
