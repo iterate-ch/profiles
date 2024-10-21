@@ -14,6 +14,8 @@
         <string>&lt;accountid&gt;.r2.cloudflarestorage.com</string>
         <key>Hostname Configurable</key>
         <true/>
+        <key>Default Hostname</key>
+        <string/>
         <key>Port Configurable</key>
         <false/>
         <key>Regions</key>
