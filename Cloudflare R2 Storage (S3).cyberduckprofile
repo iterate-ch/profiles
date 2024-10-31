@@ -26,6 +26,10 @@
             <string>eeur</string>
             <string>apac</string>
         </array>
+        <key>Region</key>
+        <array>
+            <string>wnam</string>
+        </array>
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>
