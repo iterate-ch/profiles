@@ -20,13 +20,13 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>linode-se-sto-1</string>
+        <string>linode-in-bom-1</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Stockholm, SE)</string>
+        <string>Linode Object Storage (Mumbai, IN) (in-bom-1.linodeobjects.com) (Type=E3)</string>
         <key>Default Hostname</key>
-        <string>se-sto-1.linodeobjects.com</string>
+        <string>in-bom-1.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
@@ -38,10 +38,10 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>se-sto-1</string>
+        <string>in-bom-1</string>
         <key>Regions</key>
         <array>
-            <string>se-sto-1</string>
+            <string>in-bom-1</string>
         </array>
         <key>Properties</key>
         <array>

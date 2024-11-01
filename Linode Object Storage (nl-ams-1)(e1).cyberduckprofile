@@ -20,13 +20,13 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>linode-us-lax</string>
+        <string>linode-nl-ams-1</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Los Angeles, CA, USA) (Type=E1)</string>
+        <string>Linode Object Storage (Amsterdam, NL) (nl-ams-1.linodeobjects.com) (Type=E1)</string>
         <key>Default Hostname</key>
-        <string>us-lax-1.linodeobjects.com</string>
+        <string>nl-ams-1.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
@@ -38,10 +38,10 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>us-lax</string>
+        <string>nl-ams-1</string>
         <key>Regions</key>
         <array>
-            <string>us-lax</string>
+            <string>nl-ams-1</string>
         </array>
         <key>Properties</key>
         <array>
