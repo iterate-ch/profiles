@@ -27,9 +27,7 @@
             <string>apac</string>
         </array>
         <key>Region</key>
-        <array>
-            <string>wnam</string>
-        </array>
+        <string>wnam</string>
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>
