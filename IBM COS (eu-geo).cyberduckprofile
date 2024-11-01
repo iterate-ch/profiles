@@ -40,6 +40,8 @@
             <string>eu-cold</string>
             <string>eu-smart</string>
         </array>
+        <key>Region</key>
+        <string>ap-standard</string>
         <key>Properties</key>
         <array>
             <string>s3.bucket.virtualhost.disable=true</string>
