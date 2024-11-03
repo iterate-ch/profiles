@@ -41,5 +41,9 @@
         <array>
             <string>default</string>
         </array>
+	<key>Properties</key>
+	<array>
+		<string>s3.bucket.virtualhost.disable=true</string>
+	</array>
     </dict>
 </plist>
