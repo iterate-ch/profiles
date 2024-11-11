@@ -33,7 +33,7 @@
       <string>s3.storage.class.options=STANDARD</string>
       <string>s3.upload.multipart.size=67108864</string>
       <string>s3.copy.multipart.size=67108864</string>
-      <string>s3.versioning.enable=false</string>
+      <string>s3.versioning.enable=true</string>
       <string>s3.accelerate.enable=false</string>
       <string>s3.bucket.requesterpays=false</string>
     </array>
