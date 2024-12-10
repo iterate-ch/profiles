@@ -26,6 +26,8 @@
         <key>Description</key>
         <string>UpCloud Managed Object Storage</string>
         <key>Default Hostname</key>
+        <string>upcloudobjects.com</string>
+        <key>Hostname Placeholder</key>
         <string>xxxxx.upcloudobjects.com</string>
         <key>Hostname Configurable</key>
         <true/>
