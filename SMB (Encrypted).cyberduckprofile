@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Protocol</key>
-        <string>SMB</string>
+        <string>smb</string>
         <key>Vendor</key>
         <string>smb-encrypted</string>
         <key>Description</key>
