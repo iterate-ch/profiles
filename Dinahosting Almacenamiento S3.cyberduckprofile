@@ -26,6 +26,12 @@
         <false/>
         <key>Username Configurable</key>
         <true/>
+	<key>Region</key>
+        <string>default</string>
+        <key>Regions</key>
+        <array>
+            <string>default</string>
+        </array>
         <key>Properties</key>
         <array>
             <string>s3.bucket.virtualhost.disable=true</string>
