@@ -14,7 +14,7 @@
 # GNU General Public License for more details.
 #
 
-TARGET='s3:/profiles.cyberduck.io'
+TARGET='s3:/profiles.cyberduck.io/'
 DIRECTORY=$1
 if [ ! $DIRECTORY ]; then
   DIRECTORY=$(dirname "$(cd -P -- "$(dirname -- "$0")" && pwd -P)")
@@ -22,17 +22,17 @@ fi
 echo "Finding profiles in $DIRECTORY"
 
 # Upload changed profiles by comparing checksum
-env "s3.metadata.default=Content-Type=application/xml" duck -y --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --existing compare --upload "$TARGET/" $DIRECTORY/*.cyberduckprofile
+env "s3.metadata.default=Content-Type=application/xml" duck -y --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --existing compare --upload "$TARGET" $DIRECTORY/*.cyberduckprofile
 
 # Delete profiles no longer maintained
-duck -qy --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --list $TARGET/ |
+duck -qy --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --list $TARGET |
   while read name; do
     [ -z "$name" ] && continue
     
     if [ ! -f "$DIRECTORY/$name" ]; then
       echo "Deleting $name"
-      duck -y --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --delete "$TARGET/$name"
+      duck -y --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --delete "$TARGET$name"
     fi
   done
 
-duck -qy --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --purge "$TARGET/"
+duck -qy --username $AWS_ACCESS_KEY_ID --password $AWS_SECRET_ACCESS_KEY --purge "$TARGET"
