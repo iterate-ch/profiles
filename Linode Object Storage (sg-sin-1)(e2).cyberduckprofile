@@ -26,7 +26,7 @@
         <key>Description</key>
         <string>Linode Object Storage (Singapore) (sg-sin-2.linodeobjects.com) (Type=E2)</string>
         <key>Default Hostname</key>
-        <string>sg-sin-2.linodeobjects.com</string>
+        <string>sg-sin-1.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
