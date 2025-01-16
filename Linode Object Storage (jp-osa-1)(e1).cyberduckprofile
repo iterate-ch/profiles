@@ -24,7 +24,7 @@
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Osaka, JP) (jp-osa-1.linodeobjects.com) (Type=E1)</string>
+        <string>Linode Object Storage (Osaka, JP) (jp-osa-1) (Type=E1)</string>
         <key>Default Hostname</key>
         <string>jp-osa-1.linodeobjects.com</string>
         <key>Hostname Configurable</key>

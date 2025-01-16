@@ -24,7 +24,7 @@
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Frankfurt, Germany) (de-fra-1.linodeobjects.com) (Type=E3) (Limited Availability)</string>
+        <string>Linode Object Storage (Frankfurt, Germany) (de-fra-1) (Type=E3) (Limited Availability)</string>
         <key>Default Hostname</key>
         <string>de-fra-1.linodeobjects.com</string>
         <key>Hostname Configurable</key>
