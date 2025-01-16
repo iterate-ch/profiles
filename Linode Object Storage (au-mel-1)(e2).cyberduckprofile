@@ -38,10 +38,10 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>au-mel-3</string>
+        <string>au-mel-1</string>
         <key>Regions</key>
         <array>
-            <string>au-mel-3</string>
+            <string>au-mel-1</string>
         </array>
         <key>Properties</key>
         <array>
