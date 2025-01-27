@@ -6,16 +6,16 @@
         <string>s3</string>
         <key>Vendor</key>
         <string>Dinahosting</string>
-	<key>Default Nickname</key>
-	<string>Dinahosting</string>
-	<key>Default Hostname</key>
-	<string>objects.dinaserver.com</string>
+        <key>Default Nickname</key>
+        <string>Dinahosting</string>
+        <key>Default Hostname</key>
+        <string>objects.dinaserver.com</string>
         <key>Default Port</key>
         <string>443</string>
-	<key>Username Placeholder</key>
-	<string>Access Key</string>
-	<key>Password Placeholder</key>
-	<string>Secret Key</string>
+        <key>Username Placeholder</key>
+        <string>Access Key</string>
+        <key>Password Placeholder</key>
+        <string>Secret Key</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
@@ -26,7 +26,7 @@
         <false/>
         <key>Username Configurable</key>
         <true/>
-	<key>Region</key>
+        <key>Region</key>
         <string>default</string>
         <key>Regions</key>
         <array>
@@ -36,7 +36,7 @@
         <array>
             <string>s3.bucket.virtualhost.disable=true</string>
         </array>
-	<key>Disk</key>
+        <key>Disk</key>
         <string>
             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
         </string>
