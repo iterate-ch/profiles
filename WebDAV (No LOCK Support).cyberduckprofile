@@ -9,8 +9,9 @@
 	<key>Description</key>
 	<string>WebDAV (No LOCK Support)</string>
     <key>Properties</key>
-    <array>
-        <string>webdav.lock.enable=false</string>
-    </array>
+    <dict>
+        <key>webdav.lock.enable</key>
+        <false/>
+    </dict>
 </dict>
 </plist>

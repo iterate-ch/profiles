@@ -44,10 +44,10 @@
             <string>us-east-2</string>
         </array>
         <key>Properties</key>
-        <array>
-            <string>s3.storage.class.options=STANDARD</string>
-        </array>
-        <key>Help</key>
+        <dict>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD</string>
+        </dict>        <key>Help</key>
         <string>https://help.cyberduck.io/wasabi</string>
         <key>Disk</key>
         <string>TU0AKgAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
