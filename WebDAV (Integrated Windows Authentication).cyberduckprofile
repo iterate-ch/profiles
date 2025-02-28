@@ -9,9 +9,10 @@
 	<key>Description</key>
 	<string>WebDAV (Integrated Windows Authentication)</string>
     <key>Properties</key>
-    <array>
-        <string>webdav.ntlm.windows.authentication.enable=true</string>
-    </array>
+    <dict>
+        <key>webdav.ntlm.windows.authentication.enable</key>
+        <true/>
+    </dict>
     <key>Password Configurable</key>
     <false/>
     <key>Username Configurable</key>
