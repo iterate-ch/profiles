@@ -49,9 +49,10 @@
         <key>Username Placeholder</key>
         <string>Username</string>
         <key>Properties</key>
-        <array>
+        <dict>
+            <key>s3.assumerole.rolearn</key>
             <!-- Require Role ARN input from user -->
-            <string>s3.assumerole.rolearn=</string>
-        </array>
+            <string/>
+        </dict>
     </dict>
 </plist>

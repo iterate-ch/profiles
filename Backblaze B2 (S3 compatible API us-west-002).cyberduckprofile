@@ -40,9 +40,10 @@
         <key>Help</key>
         <string>https://help.cyberduck.io/b2</string>
         <key>Properties</key>
-        <array>
-            <string>s3.upload.checksum.header=false</string>
-        </array>
+        <dict>
+            <key>s3.upload.checksum.header</key>
+            <false/>
+        </dict>
         <key>Disk</key>
         <string>
             TU0AKgAANxSAACBQOCQWDQeEQmFQuGQ2HQ+IRGJROKRWLReMRmNRuOR2PR+QSGRSOSSWTS

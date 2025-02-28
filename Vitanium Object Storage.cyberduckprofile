@@ -29,10 +29,12 @@
             <string>eu-west-2</string>
         </array>
         <key>Properties</key>
-        <array>
-            <string>s3.storage.class.options=STANDARD</string>
-			<string>s3.bucket.virtualhost.disable=true</string>
-        </array>
+        <dict>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD</string>
+            <key>s3.bucket.virtualhost.disable</key>
+            <true/>
+        </dict>
 		<key>Help</key>
         <string>https://vitanium.com/using-vitaniums-object-storage-with-cyberduck/</string>
 		<key>Disk</key>

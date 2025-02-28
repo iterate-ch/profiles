@@ -31,9 +31,10 @@
             <string>uk-lon-1</string>
         </array>
         <key>Properties</key>
-        <array>
-            <string>s3.storage.class.options=STANDARD</string>
-        </array>
+        <dict>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD</string>
+        </dict>
         <key>Disk</key>
         <string>
             SUkqABAwAAB42u19B2AUxff/51ouvZEOIQECIRRpoSRo6F2KSBNRQUVFQJqoCNIEpDeRji

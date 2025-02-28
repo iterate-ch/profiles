@@ -27,9 +27,10 @@
         <string>eu-stockholm-1</string>
     </array>
     <key>Properties</key>
-    <array>
-        <string>s3.bucket.virtualhost.disable=true</string>
-    </array>
+    <dict>
+        <key>s3.bucket.virtualhost.disable</key>
+        <true/>
+    </dict>
     <key>Help</key>
     <string>https://trac.cyberduck.io/wiki/help/en/howto/oraclecloud</string>
     <key>Disk</key>
