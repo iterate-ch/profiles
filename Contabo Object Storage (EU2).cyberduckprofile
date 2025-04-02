@@ -13,7 +13,7 @@
   ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
   ~ GNU General Public License for more details.
   -->
-  
+
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
@@ -21,15 +21,15 @@
         <string>s3</string>
         <key>Vendor</key>
         <string>contabo-eu2</string>
-		<key>Scheme</key>
+        <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
         <string>Contabo Object Storage (eu2)</string>
         <key>Default Hostname</key>
         <string>eu2.contabostorage.com</string>
-		<key>Hostname Configurable</key>
+        <key>Hostname Configurable</key>
         <false/>
-		<key>Port Configurable</key>
+        <key>Port Configurable</key>
         <false/>
         <key>Username Placeholder</key>
         <string>Access Key</string>
@@ -41,9 +41,10 @@
         <array>
             <string>default</string>
         </array>
-	<key>Properties</key>
-	<array>
-		<string>s3.bucket.virtualhost.disable=true</string>
-	</array>
+        <key>Properties</key>
+    <dict>
+        <key>s3.bucket.virtualhost.disable</key>
+        <true/>
+    </dict>
     </dict>
 </plist>

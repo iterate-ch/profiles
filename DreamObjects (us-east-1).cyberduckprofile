@@ -19,9 +19,10 @@
         <key>Authorization</key>
         <string>AWS4</string>
         <key>Properties</key>
-        <array>
-            <string>s3.storage.class.options=STANDARD</string>
-        </array>
+        <dict>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD</string>
+        </dict>
         <key>Help</key>
         <string>https://trac.cyberduck.io/wiki/help/en/howto/dreamobjects</string>
         <key>Disk</key>
