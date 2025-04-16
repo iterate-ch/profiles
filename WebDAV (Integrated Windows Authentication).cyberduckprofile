@@ -12,5 +12,9 @@
     <array>
         <string>webdav.ntlm.windows.authentication.enable=true</string>
     </array>
+    <key>Password Configurable</key>
+    <false/>
+    <key>Username Configurable</key>
+    <false/>
 </dict>
 </plist>
