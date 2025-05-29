@@ -20,13 +20,13 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>linode-sg-sin-2</string>
+        <string>linode-au-mel-3</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Singapore) (Type=E1)</string>
+        <string>Linode Object Storage (Melbourne, AUS) (Type=E2)</string>
         <key>Default Hostname</key>
-        <string>sg-sin-2.linodeobjects.com</string>
+        <string>au-mel-1.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
@@ -38,10 +38,10 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>sg-sin-2</string>
+        <string>au-mel-3</string>
         <key>Regions</key>
         <array>
-            <string>sg-sin-2</string>
+            <string>au-mel-3</string>
         </array>
         <key>Properties</key>
         <array>
