@@ -20,13 +20,13 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>linode-us-ord-2</string>
+        <string>linode-us-ord-10</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Chicago, IL, USA) (us-ord-2) (Type=E3) (Limited Availability)</string>
+        <string>Linode Object Storage (Chicago, IL, USA) (us-ord-10) (Type=E3) (Limited Availability)</string>
         <key>Default Hostname</key>
-        <string>us-ord-2.linodeobjects.com</string>
+        <string>us-ord-10.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
@@ -41,7 +41,7 @@
         <string>us-ord-2</string>
         <key>Regions</key>
         <array>
-            <string>us-ord-2</string>
+            <string>us-ord-10</string>
         </array>
         <key>Properties</key>
         <array>
