@@ -24,7 +24,7 @@
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>CoreWeave AI Object Storage (US-EAST-04)</string>
+        <string>CoreWeave AI Object Storage (US-EAST-04A)</string>
         <key>Default Hostname</key>
         <string>cwobject.com</string>
         <key>Hostname Configurable</key>
