@@ -22,21 +22,21 @@
         <key>Vendor</key>
         <string>Infomaniak Network</string>
         <key>Default Nickname</key>
-        <string>Infomaniak Public Cloud (dc3-a) (Swift)</string>
+        <string>Infomaniak Public Cloud (dc4-a) (Swift)</string>
         <key>Description</key>
-        <string>Infomaniak Public Cloud (dc3-a) (Swift)</string>
+        <string>Infomaniak Public Cloud (dc4-a) (Swift)</string>
         <key>Context</key>
         <string>/identity/v3/auth/tokens</string>
         <key>Default Hostname</key>
         <string>api.pub1.infomaniak.cloud</string>
-	    <key>Region</key>
-	    <string>dc3-a</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Default Port</key>
         <string>443</string>
         <key>Port Configurable</key>
         <false/>
+	    <key>Region</key>
+	    <string>dc4-a</string>
         <key>Username Placeholder</key>
         <string>Project:Domain:Username</string>
         <key>Password Placeholder</key>
