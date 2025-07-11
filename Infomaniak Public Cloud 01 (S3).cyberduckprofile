@@ -23,12 +23,10 @@
         <string>Infomaniak Network</string>
         <key>Scheme</key>
         <string>https</string>
-        <key>Name</key>
-        <string>Infomaniak Public Cloud (S3)</string>
         <key>Description</key>
-        <string>Infomaniak Public Cloud Region 1 (S3)</string>
+        <string>Infomaniak Public Cloud (dc3-a) (S3)</string>
         <key>Default Nickname</key>
-        <string>Infomaniak Public Cloud (S3)</string>
+        <string>Infomaniak Public Cloud (dc3-a) (S3)</string>
         <key>Default Hostname</key>
         <string>s3.pub1.infomaniak.cloud</string>
         <key>Hostname Configurable</key>
