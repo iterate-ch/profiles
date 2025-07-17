@@ -33,6 +33,8 @@
         <false/>
         <key>Port Configurable</key>
         <false/>
+        <key>Region</key>
+        <string>dc3-a</string>
         <key>Anonymous Configurable</key>
         <false/>
         <key>Properties</key>
