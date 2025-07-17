@@ -34,7 +34,7 @@
         <key>Port Configurable</key>
         <false/>
         <key>Region</key>
-        <string>dc3-a</string>
+        <string>us-east-1</string>
         <key>Anonymous Configurable</key>
         <false/>
         <key>Properties</key>
