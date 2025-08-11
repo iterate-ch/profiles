@@ -51,7 +51,6 @@
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>
-            <string>s3.bucket.virtualhost.disable=true</string>
         </array>
         <key>Help</key>
         <string>https://help.mega.io/megas4/setup-guides/cyberduck-setup-guide-for-mega-s4</string>
