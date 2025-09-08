@@ -26,11 +26,13 @@
         <key>Default Nickname</key>
         <string>AWS S3+STS Assume Role</string>
         <key>Properties</key>
-        <array>
+        <dict>
             <!-- Require Role ARN input from user -->
-            <string>role_arn=</string>
+            <key>role_arn</key>
+            <string/>
             <!-- Can be left blank. Enter ARN for MFA device when assuming role requires token from MFA -->
-            <string>mfa_serial=</string>
-        </array>
+            <key>mfa_serial</key>
+            <string/>
+        </dict>
     </dict>
 </plist>
