@@ -25,6 +25,8 @@
         <string>AWS S3+STS Assume Role</string>
         <key>Default Nickname</key>
         <string>AWS S3+STS Assume Role</string>
+        <key>OAuth Configurable</key>
+        <false/>
         <key>Token Configurable</key>
         <true/>
         <key>Properties</key>

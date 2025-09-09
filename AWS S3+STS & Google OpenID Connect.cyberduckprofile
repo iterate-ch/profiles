@@ -29,6 +29,8 @@
         <string>https://accounts.google.com/o/oauth2/auth</string>
         <key>OAuth Token Url</key>
         <string>https://accounts.google.com/o/oauth2/token</string>
+        <key>OAuth Configurable</key>
+        <true/>
         <key>OAuth Client ID</key>
         <string>996125414232-s922bvdt21nceeh5dq1gb6av8plpj7hr.apps.googleusercontent.com</string>
         <key>OAuth Client Secret</key>
