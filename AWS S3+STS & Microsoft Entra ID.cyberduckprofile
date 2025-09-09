@@ -20,11 +20,11 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>aws-s3-sts-azure-activedirectory-oidc</string>
+        <string>aws-s3-sts-entra-oidc</string>
         <key>Description</key>
-        <string>AWS S3+STS &amp; Azure Active Directory (Azure AD)</string>
+        <string>AWS S3+STS &amp; Microsoft Entra ID</string>
         <key>Default Nickname</key>
-        <string>AWS S3+STS + Azure AD OIDC</string>
+        <string>AWS S3+STS + Microsoft Entra ID</string>
         <key>OAuth Authorization Url</key>
         <string>https://login.microsoftonline.com/common/oauth2/v2.0/authorize</string>
         <key>OAuth Token Url</key>
