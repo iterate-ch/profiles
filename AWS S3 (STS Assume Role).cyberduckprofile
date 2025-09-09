@@ -22,9 +22,9 @@
         <key>Vendor</key>
         <string>aws-s3-sts-assumerole</string>
         <key>Description</key>
-        <string>AWS S3+STS Assume Role</string>
+        <string>AWS S3 (STS Assume Role)</string>
         <key>Default Nickname</key>
-        <string>AWS S3+STS Assume Role</string>
+        <string>AWS S3 (STS Assume Role)</string>
         <key>OAuth Configurable</key>
         <false/>
         <key>Token Configurable</key>
