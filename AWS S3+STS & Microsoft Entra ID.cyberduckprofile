@@ -31,8 +31,6 @@
         <string>https://login.microsoftonline.com/common/oauth2/v2.0/token</string>
         <key>OAuth Configurable</key>
         <true/>
-        <key>OAuth Client ID</key>
-        <string>f40bc18f-cd02-4212-b7f1-15243e4e2ad3</string>
         <key>OAuth Client Secret</key>
         <string/>
         <key>OAuth Redirect Url</key>
