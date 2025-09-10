@@ -22,9 +22,9 @@
         <key>Vendor</key>
         <string>aws-s3-sts-google-oidc</string>
         <key>Description</key>
-        <string>AWS S3+STS &amp; Google OpenID Connect</string>
+        <string>AWS S3 (Google OpenID Connect)</string>
         <key>Default Nickname</key>
-        <string>AWS S3+STS &amp; Google</string>
+        <string>AWS S3 (Google OpenID Connect)</string>
         <key>OAuth Authorization Url</key>
         <string>https://accounts.google.com/o/oauth2/auth</string>
         <key>OAuth Token Url</key>
