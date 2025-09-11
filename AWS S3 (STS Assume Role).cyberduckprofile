@@ -28,7 +28,7 @@
         <key>OAuth Configurable</key>
         <false/>
         <key>Token Configurable</key>
-        <true/>
+        <false/>
         <key>Properties</key>
         <dict>
             <!-- Require Role ARN input from user -->
