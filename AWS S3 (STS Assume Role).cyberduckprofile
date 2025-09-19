@@ -29,6 +29,10 @@
         <false/>
         <key>Token Configurable</key>
         <false/>
+        <key>Role Configurable</key>
+        <true/>
+        <key>Multi Factor Configurable</key>
+        <true/>
         <key>Properties</key>
         <dict>
             <!-- Require Role ARN input from user -->
