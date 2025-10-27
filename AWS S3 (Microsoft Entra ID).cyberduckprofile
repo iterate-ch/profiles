@@ -20,24 +20,25 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>aws-s3-sts-google-oidc</string>
+        <string>aws-s3-sts-entra-oidc</string>
         <key>Description</key>
-        <string>AWS S3+STS &amp; Google OpenID Connect</string>
+        <string>AWS S3 (Microsoft Entra ID)</string>
         <key>Default Nickname</key>
-        <string>AWS S3+STS &amp; Google</string>
+        <string>AWS S3 (Microsoft Entra ID)</string>
         <key>OAuth Authorization Url</key>
-        <string>https://accounts.google.com/o/oauth2/auth</string>
+        <string>https://login.microsoftonline.com/common/oauth2/v2.0/authorize</string>
         <key>OAuth Token Url</key>
-        <string>https://accounts.google.com/o/oauth2/token</string>
-        <key>OAuth Client ID</key>
-        <string>996125414232-s922bvdt21nceeh5dq1gb6av8plpj7hr.apps.googleusercontent.com</string>
+        <string>https://login.microsoftonline.com/common/oauth2/v2.0/token</string>
+        <key>OAuth Configurable</key>
+        <true/>
         <key>OAuth Client Secret</key>
         <string/>
         <key>OAuth Redirect Url</key>
-        <string>${oauth.application.identifier}:oauth</string>
+        <string>${oauth.handler.scheme}://oauth</string>
         <key>Scopes</key>
         <array>
             <string>openid</string>
+            <string>offline_access</string>
         </array>
         <key>Authorization</key>
         <string>AuthorizationCode</string>
@@ -45,12 +46,15 @@
         <false/>
         <key>Username Configurable</key>
         <false/>
+        <key>Role Configurable</key>
+        <true/>
         <key>Username Placeholder</key>
         <string>Username</string>
         <key>Properties</key>
-        <array>
-            <!-- Require Role ARN input from user-->
-            <string>s3.assumerole.rolearn=</string>
-        </array>
+        <dict>
+            <!-- Require Role ARN input from user -->
+            <key>role_arn</key>
+            <string/>
+        </dict>
     </dict>
 </plist>
