@@ -38,6 +38,7 @@
         <key>Scopes</key>
         <array>
             <string>openid</string>
+            <string>offline_access</string>
         </array>
         <key>Authorization</key>
         <string>AuthorizationCode</string>
