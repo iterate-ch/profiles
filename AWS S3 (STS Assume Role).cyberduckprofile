@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (c) 2002-2019 iterate GmbH. All rights reserved.
+  ~ Copyright (c) 2002-2023 iterate GmbH. All rights reserved.
   ~ https://cyberduck.io/
   ~
   ~ This program is free software; you can redistribute it and/or modify
@@ -20,18 +20,27 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>s3-cli</string>
+        <string>aws-s3-sts-assumerole</string>
         <key>Description</key>
-        <string>S3 (Credentials from AWS Command Line Interface)</string>
+        <string>AWS S3 (STS Assume Role)</string>
         <key>Default Nickname</key>
-        <string>S3 (Credentials from AWS Command Line Interface)</string>
-        <key>Username Placeholder</key>
-        <string>Profile Name in ~/.aws/credentials</string>
-        <key>Password Configurable</key>
+        <string>AWS S3 (STS Assume Role)</string>
+        <key>OAuth Configurable</key>
         <false/>
         <key>Token Configurable</key>
-        <true/>
-        <key>Anonymous Configurable</key>
         <false/>
+        <key>Role Configurable</key>
+        <true/>
+        <key>Multi Factor Configurable</key>
+        <true/>
+        <key>Properties</key>
+        <dict>
+            <!-- Require Role ARN input from user -->
+            <key>role_arn</key>
+            <string/>
+            <!-- Can be left blank. Enter ARN for MFA device when assuming role requires token from MFA -->
+            <key>mfa_serial</key>
+            <string/>
+        </dict>
     </dict>
 </plist>

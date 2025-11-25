@@ -20,21 +20,21 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>aws-s3-sts-azure-activedirectory-oidc</string>
+        <string>aws-s3-sts-google-oidc</string>
         <key>Description</key>
-        <string>AWS S3+STS &amp; Azure Active Directory (Azure AD)</string>
+        <string>AWS S3 (Google OpenID Connect)</string>
         <key>Default Nickname</key>
-        <string>AWS S3+STS + Azure AD OIDC</string>
+        <string>AWS S3 (Google OpenID Connect)</string>
         <key>OAuth Authorization Url</key>
-        <string>https://login.microsoftonline.com/common/oauth2/v2.0/authorize</string>
+        <string>https://accounts.google.com/o/oauth2/auth</string>
         <key>OAuth Token Url</key>
-        <string>https://login.microsoftonline.com/common/oauth2/v2.0/token</string>
-        <key>OAuth Client ID</key>
-        <string>f40bc18f-cd02-4212-b7f1-15243e4e2ad3</string>
+        <string>https://accounts.google.com/o/oauth2/token</string>
+        <key>OAuth Configurable</key>
+        <true/>
         <key>OAuth Client Secret</key>
         <string/>
         <key>OAuth Redirect Url</key>
-        <string>${oauth.handler.scheme}://oauth</string>
+        <string>${oauth.application.identifier}:oauth</string>
         <key>Scopes</key>
         <array>
             <string>openid</string>
@@ -46,12 +46,15 @@
         <false/>
         <key>Username Configurable</key>
         <false/>
+        <key>Role Configurable</key>
+        <true/>
         <key>Username Placeholder</key>
         <string>Username</string>
         <key>Properties</key>
-        <array>
-            <!-- Require Role ARN input from user -->
-            <string>s3.assumerole.rolearn=</string>
-        </array>
+        <dict>
+            <!-- Require Role ARN input from user-->
+            <key>role_arn</key>
+            <string/>
+        </dict>
     </dict>
 </plist>
