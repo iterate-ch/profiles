@@ -85,13 +85,6 @@
 
             <!-- Options which are only used when TLS is active. -->
 
-            <key>TLS Protocol</key>
-            <string>TLSv1.2</string>
-            <key>TLS Truststore</key>
-            <string>/absolute/path/to/jks/file</string>
-            <key>TLS Truststore Password</key>
-            <string>changeme</string>
-
             <key>Encryption Algorithm</key>
             <string>AES-256-CBC</string>
             <key>Encryption Key Size</key>
