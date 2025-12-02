@@ -17,9 +17,11 @@
         <key>Username Configurable</key>
         <true/>
         <key>Properties</key>
-        <array>
-            <string>s3.bucket.virtualhost.disable=true</string>
-            <string>s3.endpoint.dualstack.enable=false</string>
-        </array>
+        <dict>
+            <key>s3.bucket.virtualhost.disable</key>
+            <true/>
+            <key>s3.endpoint.dualstack.enable</key>
+            <false/>
+        </dict>
     </dict>
 </plist>

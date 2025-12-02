@@ -29,9 +29,10 @@
             <string>default</string>
         </array>
         <key>Properties</key>
-        <array>
-            <string>s3.storage.class.options=STANDARD NEARLINE</string>
-        </array>
+        <dict>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD NEARLINE</string>
+        </dict>
         <key>Help</key>
         <string>https://docs.byteark.com/en/storage/tools/cyberduck/</string>
     </dict>

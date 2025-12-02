@@ -28,9 +28,10 @@
             <string>http</string>
         </array>
         <key>Properties</key>
-        <array>
-            <string>s3.bucket.virtualhost.disable=true</string>
-        </array>
+    <dict>
+        <key>s3.bucket.virtualhost.disable</key>
+        <true/>
+    </dict>
         <key>Disk</key>
         <string>
             AAABAAYAAAAAAAEAIAAoIAQAZgAAAICAAAABACAAKAgBAI4gBABAQAAAAQAgAChCAAC2KAUAM

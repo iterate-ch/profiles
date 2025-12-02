@@ -21,9 +21,10 @@
         <key>Username Configurable</key>
         <true/>
         <key>Properties</key>
-        <array>
-            <string>s3.bucket.virtualhost.disable=true</string>
-        </array>
+    <dict>
+        <key>s3.bucket.virtualhost.disable</key>
+        <true/>
+    </dict>
         <key>Region</key>
         <string>eu-central</string>
     </dict>

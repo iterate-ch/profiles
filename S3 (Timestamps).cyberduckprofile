@@ -32,8 +32,9 @@
         <key>Username Configurable</key>
         <true/>
         <key>Properties</key>
-        <array>
-            <string>s3.listing.metadata.enable=true</string>
-        </array>
+        <dict>
+            <key>s3.listing.metadata.enable</key>
+            <true/>
+        </dict>
     </dict>
 </plist>

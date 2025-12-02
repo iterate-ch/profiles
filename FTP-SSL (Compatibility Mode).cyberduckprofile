@@ -9,10 +9,13 @@
 	<key>Description</key>
 	<string>FTP-SSL (Compatibility Mode)</string>
     <key>Properties</key>
-    <array>
-        <string>ftp.command.stat=false</string>
-        <string>ftp.command.mlsd=false</string>
-        <string>ftp.command.lista=false</string>
-    </array>
+    <dict>
+        <key>ftp.command.stat</key>
+        <false/>
+        <key>ftp.command.mlsd</key>
+        <false/>
+        <key>ftp.command.lista</key>
+        <false/>
+    </dict>
 </dict>
 </plist>

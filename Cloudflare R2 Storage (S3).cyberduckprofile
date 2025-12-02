@@ -29,10 +29,12 @@
         <key>Region</key>
         <string>wnam</string>
         <key>Properties</key>
-        <array>
-            <string>s3.storage.class.options=STANDARD</string>
-            <string>s3.bucket.virtualhost.disable=true</string>
-        </array>
+        <dict>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD</string>
+            <key>s3.bucket.virtualhost.disable</key>
+            <true/>
+        </dict>
         <key>Help</key>
         <string>https://docs.cyberduck.io/protocols/s3/cloudflare/</string>
     </dict>
