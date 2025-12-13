@@ -45,10 +45,13 @@
             <string>us-east-04a</string>
             <string>us-east-06a</string>
             <string>us-east-08a</string>
+            <string>us-east-13a</string>
             <string>rno2a</string>
             <string>us-west-01a</string>
             <string>us-west-04a</string>
-            <string>eu-south-03a</string>
+            <string>us-west-09b</string>
+            <string>eu-south-03b</string>
+            <string>eu-south-04a</string>
         </array>
         <key>Properties</key>
         <array>
