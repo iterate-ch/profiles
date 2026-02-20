@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.1">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>Unitel Technologies</string>
+        <key>Scheme</key>
+        <string>https</string>
+        <key>Description</key>
+        <string>S3 Unitel</string>
+        <key>Default Hostname</key>
+        <string>s3.unitel.one</string>
+        <key>Port Configurable</key>
+        <false/>
+        <key>Username Configurable</key>
+        <true/>
+        <key>Region</key>
+        <string>fr</string>
+        <key>Properties</key>
+        <dict>
+            <key>s3.bucket.virtualhost.disable</key>
+            <true/>
+        </dict>
+        <key>Help</key>
+        <string>https://www.unitel.fr/infrastructure-cloud/stockage-s3</string>
+    </dict>
+</plist>
