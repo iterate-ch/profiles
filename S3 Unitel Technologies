@@ -17,7 +17,7 @@
         <key>Username Configurable</key>
         <true/>
         <key>Region</key>
-        <string>eu-west-3</string>
+        <string>us-east-1</string>
         <key>Properties</key>
         <dict>
             <key>s3.bucket.virtualhost.disable</key>
