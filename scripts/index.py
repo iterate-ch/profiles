@@ -75,6 +75,7 @@ def main():
             "filename": key,
             "protocol": d.get("Protocol", ""),
             "vendor": d.get("Vendor", ""),
+            "description": d.get("Description", ""),
             "versions": [
                 {
                     # ETag is the MD5 hex digest for non-multipart uploads
