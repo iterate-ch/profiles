@@ -9,8 +9,8 @@ AWS_SECRET_ACCESS_KEY) or any other boto3-supported credential source.
 """
 
 import json
+import plistlib
 import sys
-import xml.etree.ElementTree as ET
 import boto3
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
@@ -22,23 +22,12 @@ SUFFIX = ".cyberduckprofile"
 s3 = boto3.client("s3")
 
 
-def _parse_plist(data: bytes) -> dict:
-    """Extract string-valued keys from an Apple plist <dict> without plistlib."""
-    root = ET.fromstring(data)
-    d = root.find(".//dict")
-    children = list(d)
-    return {
-        children[i].text: children[i + 1].text
-        for i in range(0, len(children) - 1, 2)
-        if children[i].tag == "key" and children[i + 1].tag == "string"
-    }
-
-
 def _fetch(key, version_id):
     body = s3.get_object(Bucket=BUCKET, Key=key, VersionId=version_id)["Body"].read()
     try:
-        return _parse_plist(body)
-    except Exception:
+        return plistlib.loads(body)
+    except plistlib.InvalidFileException:
+        print(f"Failed to parse {key} ({version_id})", file=sys.stderr)
         return None
 
 
