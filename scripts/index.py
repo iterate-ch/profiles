@@ -8,18 +8,37 @@ Reads AWS credentials from the environment (AWS_ACCESS_KEY_ID,
 AWS_SECRET_ACCESS_KEY) or any other boto3-supported credential source.
 """
 
+import base64
+import binascii
+import io
 import json
 import plistlib
 import sys
 import boto3
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from PIL import Image
 
 BUCKET = "profiles.cyberduck.io"
 INDEX_KEY = "index.json"
 SUFFIX = ".cyberduckprofile"
 
 s3 = boto3.client("s3")
+
+
+def _scale_thumbnail(disk: str) -> str:
+    """Scale a Base64-encoded TIFF to 32×32 px and return as a Base64-encoded PNG."""
+    try:
+        decoded = base64.b64decode(disk, validate=False)
+    except binascii.Error as e:
+        print(f"base64 decode failed for type={type(disk).__name__} len={len(disk)} repr={repr(disk[:80])}", file=sys.stderr)
+        return None
+    with Image.open(io.BytesIO(decoded)) as img:
+        img = img.resize((32, 32), Image.LANCZOS)
+        buf = io.BytesIO()
+        img.save(buf, format="PNG")
+        return base64.b64encode(buf.getvalue()).decode()
+    return None
 
 
 def _fetch(key, version_id):
@@ -73,10 +92,11 @@ def main():
         )
         entry = {
             "filename": key,
-            "protocol": d.get("Protocol", ""),
-            "vendor": d.get("Vendor", ""),
-            "description": d.get("Description", ""),
-            "help": d.get("Help", ""),
+            "protocol": d.get("Protocol", None),
+            "vendor": d.get("Vendor", None),
+            "description": d.get("Description", None),
+            "help": d.get("Help", None),
+            "thumbnail": _scale_thumbnail(d["Disk"]) if "Disk" in d else None,
             "versions": [
                 {
                     # ETag is the MD5 hex digest for non-multipart uploads
