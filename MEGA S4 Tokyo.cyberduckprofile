@@ -41,16 +41,6 @@
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
         <string>ap-tokyo</string>
-        <key>Regions</key>
-        <array>
-            <string>eu-amsterdam</string>
-            <string>eu-luxembourg</string>
-            <string>eu-paris</string>
-            <string>eu-barcelona</string>
-            <string>ca-montreal</string>
-            <string>ca-vancouver</string>
-            <string>ap-tokyo</string>
-        </array>
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>
