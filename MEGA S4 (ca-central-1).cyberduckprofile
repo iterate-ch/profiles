@@ -22,9 +22,9 @@
         <key>Vendor</key>
         <string>mega-s4-ca-central-1</string>
         <key>Description</key>
-        <string>MEGA S4 CA Central 1 (Montreal)</string>
+        <string>MEGA S4 Montreal</string>
         <key>Default Hostname</key>
-        <string>s3.ca-central-1.s4.mega.io</string>
+        <string>s3.ca-montreal.megas4.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Default Port</key>
@@ -40,14 +40,7 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>ca-central-1</string>
-        <key>Regions</key>
-        <array>
-            <string>eu-central-1</string>
-            <string>eu-central-2</string>
-            <string>ca-central-1</string>
-            <string>ca-west-1</string>
-        </array>
+        <string>ca-montreal</string>
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>

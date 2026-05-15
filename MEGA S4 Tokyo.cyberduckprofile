@@ -20,11 +20,11 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>mega-s4-eu-central-2</string>
+        <string>mega-s4-tokyo</string>
         <key>Description</key>
-        <string>MEGA S4 Luxembourg</string>
+        <string>MEGA S4 Tokyo</string>
         <key>Default Hostname</key>
-        <string>s3.eu-luxembourg.megas4.com</string>
+        <string>s3.ap-tokyo.megas4.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Default Port</key>
@@ -40,7 +40,7 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>eu-luxembourg</string>
+        <string>ap-tokyo</string>
         <key>Properties</key>
         <array>
             <string>s3.storage.class.options=STANDARD</string>
