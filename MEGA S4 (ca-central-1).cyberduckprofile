@@ -20,7 +20,7 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>mega-s4-montreal</string>
+        <string>mega-s4-ca-central-1</string>
         <key>Description</key>
         <string>MEGA S4 Montreal</string>
         <key>Default Hostname</key>

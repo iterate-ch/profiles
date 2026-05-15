@@ -20,7 +20,7 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>mega-s4-amsterdam</string>
+        <string>mega-s4-eu-central-1</string>
         <key>Description</key>
         <string>MEGA S4 Amsterdam</string>
         <key>Default Hostname</key>
