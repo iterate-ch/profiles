@@ -21,6 +21,8 @@
         <string>dropbox</string>
         <key>Vendor</key>
         <string>dropbox-cli</string>
+        <key>Description</key>
+        <string>Dropbox (CLI)</string>
         <key>Default Hostname</key>
         <string>www.dropbox.com</string>
         <key>OAuth Authorization Url</key>
