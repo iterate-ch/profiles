@@ -20,13 +20,13 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>linode-jp-tyo-1</string>
+        <string>linode-us-iad-18</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>Linode Object Storage (Tokyo 3, JP) (jp-tyo-1) (Type=E2)</string>
+        <string>Linode Object Storage (Washington 2, DC, US) (us-iad-18) (Type=E3)</string>
         <key>Default Hostname</key>
-        <string>jp-tyo-1.linodeobjects.com</string>
+        <string>us-iad-18.linodeobjects.com</string>
         <key>Hostname Configurable</key>
         <false/>
         <key>Port Configurable</key>
@@ -38,10 +38,10 @@
         <key>Authorization</key>
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
-        <string>jp-tyo-1</string>
+        <string>us-iad-18</string>
         <key>Regions</key>
         <array>
-            <string>jp-tyo-1</string>
+            <string>us-iad-18</string>
         </array>
         <key>Properties</key>
         <dict>
