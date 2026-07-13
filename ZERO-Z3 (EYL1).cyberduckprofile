@@ -11,7 +11,7 @@
         <key>Description</key>
         <string>ZERO-Z3 (eyl1)</string>
         <key>Default Hostname</key>
-        <string>eyl.s3.zeroservices.eu</string>
+        <string>eyl1.s3.zeroservices.eu</string>
         <key>Default Port</key>
         <string>443</string>
         <key>Hostname Configurable</key>

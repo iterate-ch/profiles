@@ -5,13 +5,13 @@
         <key>Protocol</key>
         <string>s3</string>
         <key>Vendor</key>
-        <string>zero-hel1</string>
+        <string>zero-fra1</string>
         <key>Scheme</key>
         <string>https</string>
         <key>Description</key>
-        <string>ZERO-Z3 (hel1)</string>
+        <string>ZERO-Z3 (fra1)</string>
         <key>Default Hostname</key>
-        <string>hel.s3.zeroservices.eu</string>
+        <string>fra1.s3.zeroservices.eu</string>
         <key>Default Port</key>
         <string>443</string>
         <key>Hostname Configurable</key>
@@ -23,10 +23,10 @@
         <key>Password Placeholder</key>
         <string>Secret Key</string>
         <key>Region</key>
-        <string>zero-hel1</string>
+        <string>zero-fra1</string>
         <key>Regions</key>
         <array>
-            <string>zero-hel1</string>
+            <string>zero-fra1</string>
         </array>
         <key>Properties</key>
         <dict>
