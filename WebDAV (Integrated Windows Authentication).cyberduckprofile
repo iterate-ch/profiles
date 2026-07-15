@@ -11,7 +11,7 @@
     <key>Password Configurable</key>
     <false/>
     <key>Username Configurable</key>
-    <true/>
+    <false/>
     <key>Token Configurable</key>
     <true/>
 </dict>
