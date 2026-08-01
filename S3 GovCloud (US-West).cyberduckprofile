@@ -39,5 +39,7 @@
         <string>AWS4HMACSHA256</string>
         <key>Region</key>
         <string>us-gov-west-1</string>
+        <key>STS Endpoint</key>
+        <string>https://sts.us-gov-west-1.amazonaws.com</string>
     </dict>
 </plist>
