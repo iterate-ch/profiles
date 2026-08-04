@@ -8,14 +8,11 @@
     <string>davs-iwa</string>
 	<key>Description</key>
 	<string>WebDAV (Integrated Windows Authentication)</string>
-    <key>Properties</key>
-    <dict>
-        <key>webdav.ntlm.windows.authentication.enable</key>
-        <true/>
-    </dict>
     <key>Password Configurable</key>
     <false/>
     <key>Username Configurable</key>
+    <false/>
+    <key>Token Configurable</key>
     <true/>
 </dict>
 </plist>
