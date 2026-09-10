@@ -31,5 +31,7 @@
         <true/>
         <key>Password Placeholder</key>
         <string>Shared Access Signature (SAS) Token</string>
+        <key>Token Placeholder</key>
+        <string>Shared Access Signature (SAS) Token</string>
     </dict>
 </plist>
