@@ -17,43 +17,44 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
+        <key>Help</key>
+        <string>https://docs.cyberduck.io/tutorials/owncloud_opencloud_oidc/</string>
         <key>Protocol</key>
         <string>owncloud</string>
         <key>Vendor</key>
-        <string>owncloud.works</string>
+        <string>ocis-oidc</string>
         <key>Description</key>
-        <string>ownCloud Infinite Scale</string>
+        <string>ownCloud Infinite Scale (OpenID Connect)</string>
         <key>Default Nickname</key>
         <string>ownCloud Infinite Scale</string>
-        <key>Default Hostname</key>
-        <string>ocis.ocis-keycloak.latest.owncloud.works</string>
-        <key>Default Path</key>
-        <string>/remote.php/webdav/</string>
-        <key>Path Configurable</key>
-        <true/>
         <key>Hostname Configurable</key>
         <true/>
-        <key>OAuth Configurable</key>
+        <key>Port Configurable</key>
         <true/>
+        <key>Path Configurable</key>
+        <true/>
+        <key>Username Configurable</key>
+        <false/>
+        <key>Password Configurable</key>
+        <false/>
         <key>OAuth Authorization Url</key>
-        <string>https://keycloak.ocis-keycloak.latest.owncloud.works/realms/oCIS/protocol/openid-connect/auth</string>
+        <string>/signin/v1/identifier/_/authorize</string>
         <key>OAuth Token Url</key>
-        <string>https://keycloak.ocis-keycloak.latest.owncloud.works/realms/oCIS/protocol/openid-connect/token</string>
+        <string>/konnect/v1/token</string>
+        <key>OAuth Client ID</key>
+        <string>xdXOt13JKxym1B1QcEncf2XDkLAexMBFwiT9j6EfhhHFJhs2KM9jbjTmf8JBXE69</string>
+        <key>OAuth Client Secret</key>
+        <string>UBntmLjC2yYCeHwsyj73Uwo9TAaecAetRwMw0xYcvNL9yRdLSUi0hUAHfvCHFeFh</string>
+        <key>OAuth Redirect Url</key>
+        <string>http://localhost/</string>
+        <key>OAuth PKCE</key>
+        <true/>
         <key>Scopes</key>
         <array>
             <string>openid</string>
+            <string>profile</string>
             <string>email</string>
             <string>offline_access</string>
         </array>
-        <key>OAuth Client ID</key>
-        <string>3keLfua0olYvW1zKXTDB3OjAMPEYWEQNuiscli395GKJOiPnPURNQWGvGCJZf4Hw</string>
-        <key>OAuth Client Secret</key>
-        <string>yoqICbLIeYbpZPqDH4D8k4NKb04HqnrWBntEeVZEQ5gO1RmaUlln0Aqu1dj2UoF4</string>
-        <key>OAuth Redirect Url</key>
-        <string>${oauth.handler.scheme}:oauth</string>
-        <key>Password Configurable</key>
-        <false/>
-        <key>Username Configurable</key>
-        <false/>
     </dict>
 </plist>
