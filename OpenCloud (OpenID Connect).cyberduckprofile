@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Help</key>
+        <string>https://docs.cyberduck.io/tutorials/owncloud_opencloud_oidc/</string>
+        <key>Protocol</key>
+        <string>owncloud</string>
+        <key>Vendor</key>
+        <string>opencloud-oidc</string>
+        <key>Description</key>
+        <string>OpenCloud (OpenID Connect)</string>
+        <key>Default Nickname</key>
+        <string>OpenCloud</string>
+        <key>Hostname Configurable</key>
+        <true/>
+        <key>Port Configurable</key>
+        <true/>
+        <key>Path Configurable</key>
+        <true/>
+        <key>Username Configurable</key>
+        <false/>
+        <key>Password Configurable</key>
+        <false/>
+        <key>OAuth Authorization Url</key>
+        <string>/signin/v1/identifier/_/authorize</string>
+        <key>OAuth Token Url</key>
+        <string>/konnect/v1/token</string>
+        <key>OAuth Client ID</key>
+        <string>OpenCloudDesktop</string>
+        <key>OAuth Client Secret</key>
+        <string></string>
+        <key>OAuth Redirect Url</key>
+        <string>http://localhost/</string>
+        <key>OAuth PKCE</key>
+        <true/>
+        <key>Scopes</key>
+        <array>
+            <string>openid</string>
+            <string>profile</string>
+            <string>email</string>
+            <string>offline_access</string>
+        </array>
+    </dict>
+</plist>
