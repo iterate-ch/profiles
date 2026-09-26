@@ -7,7 +7,7 @@
         <key>Vendor</key>
         <string>relaix-aachen2</string>
         <key>Description</key>
-        <string>RelAix.Storage (Aachen 2)</string>
+        <string>RelAix.Storage (Aachen-2)</string>
         <key>Default Hostname</key>
         <string>s3-gw2.relaix.net</string>
         <key>Region</key>
