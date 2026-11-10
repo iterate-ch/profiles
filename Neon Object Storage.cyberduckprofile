@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Protocol</key>
+        <string>s3</string>
+        <key>Vendor</key>
+        <string>neon-object-storage</string>
+        <key>Scheme</key>
+        <string>https</string>
+        <key>Description</key>
+        <string>Neon Object Storage</string>
+        <key>Default Nickname</key>
+        <string>Neon Object Storage</string>
+        <key>Default Hostname</key>
+        <string/>
+        <key>Hostname Configurable</key>
+        <true/>
+        <key>Hostname Placeholder</key>
+        <string>br-&lt;branch&gt;.storage.c-&lt;n&gt;.&lt;region&gt;.aws.neon.tech</string>
+        <key>Port Configurable</key>
+        <false/>
+        <key>Username Configurable</key>
+        <true/>
+        <key>Username Placeholder</key>
+        <string>Access Key ID (nak_live_…)</string>
+        <key>Password Placeholder</key>
+        <string>Secret Access Key (nsk_live_…)</string>
+        <key>Anonymous Configurable</key>
+        <false/>
+        <key>Authorization</key>
+        <string>AWS4HMACSHA256</string>
+        <key>Region</key>
+        <string>auto</string>
+        <key>Properties</key>
+        <dict>
+            <key>s3.bucket.virtualhost.disable</key>
+            <true/>
+            <key>s3.storage.class.options</key>
+            <string>STANDARD</string>
+            <key>s3.versioning.enable</key>
+            <false/>
+            <key>s3.accelerate.enable</key>
+            <false/>
+        </dict>
+        <key>Help</key>
+        <string>https://docs.cyberduck.io/protocols/s3/neon/</string>
+    </dict>
+</plist>
